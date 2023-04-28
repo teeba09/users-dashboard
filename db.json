@@ -1,0 +1,100 @@
+{
+  "users": [
+    {
+      "username": "teeba",
+      "firstName": "teeba",
+      "lastName": "ali",
+      "phone": "07809876544",
+      "email": "teeba",
+      "password": "123",
+      "createdAt": "4/23/2023, 10:09:33 PM",
+      "role": "user",
+      "id": 25,
+      "enabled": true
+    },
+    {
+      "username": "ali",
+      "firstName": "waleed",
+      "lastName": "ali",
+      "phone": "07808766555",
+      "email": "teeba",
+      "password": "123",
+      "createdAt": "4/20/2023, 10:14:00 PM",
+      "role": "user",
+      "id": 26,
+      "enabled": true
+    },
+    {
+      "username": "teeba",
+      "firstName": "teeba",
+      "lastName": "ali",
+      "phone": "07808765433",
+      "email": "teeba",
+      "password": "1234",
+      "createdAt": "4/24/2023, 10:21:28 PM",
+      "role": "user",
+      "id": 27,
+      "enabled": true
+    },
+    {
+      "username": "teeba",
+      "firstName": "ali",
+      "lastName": "waleed",
+      "phone": "07808345855",
+      "email": "teeba@test.com",
+      "password": "123",
+      "createdAt": "4/21/2023, 10:24:49 PM",
+      "role": "user",
+      "id": 28,
+      "enabled": true
+    },
+    {
+      "username": "test",
+      "firstName": "test",
+      "lastName": "test",
+      "phone": "07808345855",
+      "email": "test",
+      "password": "123",
+      "createdAt": "4/22/2023, 10:27:22 PM",
+      "role": "user",
+      "id": 29,
+      "enabled": true
+    },
+    {
+      "username": "test ",
+      "firstName": "final",
+      "lastName": "final",
+      "phone": "07808345333",
+      "email": "teeba",
+      "password": "123",
+      "createdAt": "4/28/2023, 10:28:09 PM",
+      "role": "admin",
+      "id": 30,
+      "enabled": false
+    },
+    {
+      "username": "test",
+      "firstName": "test",
+      "lastName": "test",
+      "phone": "07808345852",
+      "email": "test@gmail.com",
+      "password": "123",
+      "createdAt": "4/29/2023, 2:25:46 AM",
+      "role": "user",
+      "id": 31,
+      "enabled": true
+    },
+    {
+      "username": "dina",
+      "firstName": "dina",
+      "lastName": "haider",
+      "phone": "07808654322",
+      "email": "dina@gmail.com",
+      "password": "1234",
+      "createdAt": "4/29/2023, 2:47:41 AM",
+      "role": "user",
+      "id": 32,
+      "enabled": true
+    }
+  ]
+}
