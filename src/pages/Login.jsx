@@ -31,7 +31,7 @@ function Login() {
       })
       .catch((error) => {
         setIisLogin(false);
-        message.warning("something went wrong");
+        message.warning("username or passwors is not correct");
       });
   };
 
