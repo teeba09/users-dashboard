@@ -27,7 +27,6 @@ function Login() {
       .then((response) => {
         localStorage.setItem("token", response.data.token);
         setIisLogin(true);
-        message.success("");
         navigate("/");
       })
       .catch((error) => {
