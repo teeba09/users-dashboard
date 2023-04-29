@@ -1,4 +1,4 @@
-import { Button, Switch, Table } from "antd";
+import { Button, message, Switch, Table } from "antd";
 import { useEffect } from "react";
 import { useMutation, useQuery } from "react-query";
 import { Navigate, useNavigate } from "react-router-dom";
@@ -8,7 +8,7 @@ import { queryClient } from "../queryClient";
 import { useApp } from "../store/useApp";
 function Users() {
   const navigate = useNavigate();
-  const { setIisAddUserModal } = useApp();
+  const { setIisAddUserModal, setIisLogin } = useApp();
 
   const { loading, data } = useQuery("users", getUsers, {
     refetchOnWindowFocus: false,
@@ -64,6 +64,10 @@ function Users() {
       ),
     },
   ];
+  useEffect(() => {
+    !localStorage.getItem("token") ? navigate("/login") : setIisLogin(true);
+    if (!data) message.warning("something went wrong");
+  }, []);
 
   return (
     <div className="m-16">

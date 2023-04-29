@@ -9,7 +9,7 @@ function Login() {
   const { setIisLogin } = useApp();
 
   useEffect(() => {
-    if (!localStorage.getItem("token")) navigate("/login");
+    !localStorage.getItem("token") ? navigate("/login") : setIisLogin(true);
   }, []);
 
   const onFinish = (data) => {
